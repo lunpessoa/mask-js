@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Validar Cpf</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <script type="module" src="scripts/index.js" defer></script>
+  </head>
+  <body>
+    <form action="">
+      <label for="cpf">CPF</label>
+      <span class="pattern">Pattern: XXX.XXX.XXX-XX</span>
+      <input
+        type="text"
+        name="cpf"
+        id="cpf"
+        data-pattern="XXX.XXX.XXX-XX"
+        placeholder="000.000.000-00"
+      />
+      <label for="cnpj">CNPJ</label>
+      <span class="pattern">Pattern: XX.XXX.XXX/XXXX-XX</span>
+      <input
+        type="text"
+        name="cnpj"
+        id="cnpj"
+        data-pattern="XX.XXX.XXX/XXXX-XX"
+        placeholder="00.000.000/0000-00"
+      />
+      <label for="email">Email</label>
+      <input type="text" name="email" id="email" placeholder="email@email.com" />
+    </form>
+  </body>
+</html>
