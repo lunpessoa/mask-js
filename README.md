@@ -1,2 +1,1 @@
-# CPF Validatior
 # mask-js
